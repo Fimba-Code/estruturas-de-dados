@@ -51,10 +51,24 @@ Implememente uma Pilha com os seguintes metodos:
 - **pop**: Método para remover o ultimo elemento da pilha.
 - **print**: Método imprimir todos os elementos da pilha.
 
+### Challenge #3 - Lista Ligada(Linked-List) 🧊
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/23306911/83902866-7847f400-a75d-11ea-82fd-a54ad5e9be69.png" width="300"/>
+</div>
+
+Lista Ligada é uma estrutura de dados linear e dinâmica. Ela é composta por células que apontam para o próximo elemento da lista. Para "ter" uma lista ligada/encadeada, basta guardar seu primeiro elemento, e seu último elemento aponta para uma célula nula. O esquema a seguir representa uma lista ligada/encadeada com 5 elementos. [Fonte: Wikipedia](https://pt.wikipedia.org/wiki/Lista_ligada)
+
+Implememente uma Lista Ligada com os seguintes métodos:
+
+- **insert**: Método para inserir novos elementos à lista.
+- **remove**: Método para remover o ultimo elemento da lista.
+- **print**: Método imprimir todos os elementos da lista.
+
 ### Challenge #3 - Árvore de pesquisa binária(BST - Binary Search Tree) 🧊
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/23306911/83900140-e1c60380-a759-11ea-9d81-3d6fcad9e48c.png" width="200"/>
+  <img src="https://user-images.githubusercontent.com/23306911/83900140-e1c60380-a759-11ea-9d81-3d6fcad9e48c.png" width="300"/>
 </div>
 
 BST é uma estrutura de dados de árvore binária baseada em nós, onde todos os nós da subárvore esquerda possuem um valor numérico inferior ao nó raiz e todos os nós da subárvore direita possuem um valor superior ao nó raiz (esta é a forma padrão, podendo as subárvores serem invertidas, dependendo da aplicação) [Fonte: Wikipédia](https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria_de_busca)
