@@ -91,7 +91,7 @@ stack.pop();
 // Imprimindo 
 stack.print(); // imprime: 2
 
-// Verificando se a fila está vázia
+// Verificando se a pilha está vázia
 stack.isEmpty(); // imprime: false
 ```
 
@@ -127,7 +127,7 @@ lista.remove(5);
 // Imprimindo 
 lista.print(); // imprime: 1
 
-// Verificando se a fila está vázia
+// Verificando se a lista está vázia
 lista.isEmpty(); // imprime: false
 ```
 
@@ -160,12 +160,10 @@ bst.insert(1);
 bst.insert(5);
 
 // Removendo elementos
-bst.remove(2);
+bst.remove(2)
 // Imprimindo 
 bst.find(2); // imprime: true
 
-// Verificando se a fila está vázia
+// Verificando se a árvore está vázia
 bst.isEmpty(); // imprime: false
 ```
-
-
