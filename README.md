@@ -131,7 +131,20 @@ lista.print(); // imprime: 1
 lista.isEmpty(); // imprime: false
 ```
 
-### Challenge #3 - Árvore de pesquisa binária(BST - Binary Search Tree) 🧊
+### Challenge #4 - Lista Ligada Circular 🧊 
+
+<div align="center">
+  <img src="https://media.discordapp.net/attachments/702982237452238918/718513912634671206/linked-list.png?width=1442&height=244" width="200"/>
+</div>
+
+Defina uma estrutura de dados utilizando o conceito de uma lista ligada circular, onde o último elemento nos leva sempre ao primeiro elemento, como no exemplo a seguir:
+
+> A Lista tem os elementos { A, B, C, D } mas é apenas representada por um nó (um único elemento), onde através dele podemos acessar outros elementos.
+
+> Para esse caso concreto, a partir de A podes ir para B, de B podes ir à C e de C podes voltar à A, cada nó armazenará o seu valor e a referência do seu próximo (caso seja o último armazenará a referência do primeiro).
+
+
+### Challenge #5 - Árvore de pesquisa binária(BST - Binary Search Tree) 🧊
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/23306911/83900140-e1c60380-a759-11ea-9d81-3d6fcad9e48c.png" width="300"/>
@@ -166,4 +179,23 @@ bst.find(2); // imprime: true
 
 // Verificando se a árvore está vázia
 bst.isEmpty(); // imprime: false
+```
+
+
+### Challenge #6 - Fundir duas Listas Ligadas(ordenadas) 🧊
+
+Dada uma lista ligada com os elementos `(3, 5, 9, 12)` e uma outra com os elementos `(2, 4, 10, 15)`. 
+Crie um algoritmo que percorra as duas listas ligadas e retorna uma nova lista ligada com os elementos re-ordenados: `(2, 3, 4, 5, 9, 10, 12, 15)`
+
+Exemplo:
+
+```javascript
+const listaA = new ListaLigada();
+const listaB = new ListaLigada();
+
+listaA.insert([3, 5, 9, 12]);
+listaB.insert([2, 4, 10, 15]);
+
+const novaLista = mergeLists(listaA, listaB);
+print(novaLista); // 2, 3, 4, 5, 9, 10, 12, 15
 ```
