@@ -22,7 +22,7 @@ Os challenges (desafios) começarão do mais simples ao mais arduo, mas poderás
 
 ### Challenge #1 - Fila(Queue) 🧊
 
-Fila é uma estrutura de dados linear que nos permite processar elementos dependendo da ordem na qual foram adicionados, regra esta é: Os primeiros a serem adicionado à fila, serão os primeiros a serem atendidos ou executados. Filas são muito usadas quando precisamos processar informações em serie(uma atrás da outra, do primeiro ao ultimo). 
+Fila é uma estrutura de dados linear que nos permite processar elementos dependendo da ordem na qual foram adicionados, regra esta é: Os primeiros a serem adicionados à fila, serão os primeiros a serem atendidos ou executados, ou seja **Primeiro dentro, Primeiro Fora(FIFO)**. Filas são muito usadas quando precisamos processar informações em serie(uma atrás da outra, do primeiro ao último). 
 
 Implememente uma Fila com os seguintes metodos:
 
@@ -30,3 +30,30 @@ Implememente uma Fila com os seguintes metodos:
 - **enqueue**: Método para adicionar novos elementos à fila.
 - **dequeue**: Método para remover o ultimo elemento da fila.
 - **print**: Método imprimir todos os elementos da fila.
+
+
+### Challenge #2 - Pilha(Stack) 🧊
+
+Pilha é uma estrutura de dados linear que nos permite processar elementos dependendo da ordem na qual foram adicionados, regra esta é: Os últimos a serem adicionados à fila, serão os primeiros a serem atendidos ou executados. Pilhas são muito usadas quando precisamos processar informações em serie(uma atrás da outra, do último ao primeiro). 
+
+Implememente uma Pilha com os seguintes metodos:
+
+- **isEmpty**: Método verificar se a pilha está vazia.
+- **push**: Método para adicionar novos elementos à pilha.
+- **pop**: Método para remover o ultimo elemento da pilha.
+- **print**: Método imprimir todos os elementos da pilha.
+
+### Challenge #3 - Árvore de pesquisa binária(BST - Binary Search Tree) 🧊
+
+BST é uma estrutura de dados de árvore binária baseada em nós, onde todos os nós da subárvore esquerda possuem um valor numérico inferior ao nó raiz e todos os nós da subárvore direita possuem um valor superior ao nó raiz (esta é a forma padrão, podendo as subárvores serem invertidas, dependendo da aplicação) [Fonte: Wikipédia](https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria_de_busca)
+
+
+
+Implememente uma **BST** com os seguintes metodos:
+
+- **isEmpty**: Método verificar se a árvore está vazia.
+- **insert**: Método para adicionar novos elementos à árvore.
+- **find**: Método para pesquisar determinado valor na árvore.
+- **remove**: Método remover determinado valor da árvore.
+
+
