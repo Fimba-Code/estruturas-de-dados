@@ -35,6 +35,28 @@ Implememente uma Fila com os seguintes metodos:
 - **dequeue**: Método para remover o ultimo elemento da fila.
 - **print**: Método imprimir todos os elementos da fila.
 
+Exemplo:
+
+```javascript
+
+// Inicializando a Fila
+const queue = new Queue();
+
+// Adicionando novos elementos
+queue.enqueue(2);
+queue.enqueue(1);
+queue.enqueue(5);
+
+// Removendo elementos
+queue.dequeue();
+queue.dequeue();
+
+// Imprimindo 
+queue.print(); // imprime: 5
+
+// Verificando se a fila está vázia
+queue.isEmpty(); // imprime: false
+```
 
 ### Challenge #2 - Pilha(Stack) 🧊
 
@@ -51,6 +73,28 @@ Implememente uma Pilha com os seguintes metodos:
 - **pop**: Método para remover o ultimo elemento da pilha.
 - **print**: Método imprimir todos os elementos da pilha.
 
+Exemplo:
+
+```javascript
+// Inicializando a Fila
+const stack = new Stack();
+
+// Adicionando novos elementos
+stack.push(2);
+stack.push(1);
+stack.push(5);
+
+// Removendo elementos
+stack.pop();
+stack.pop();
+
+// Imprimindo 
+stack.print(); // imprime: 2
+
+// Verificando se a fila está vázia
+stack.isEmpty(); // imprime: false
+```
+
 ### Challenge #3 - Lista Ligada(Linked-List) 🧊
 
 <div align="center">
@@ -64,6 +108,28 @@ Implememente uma Lista Ligada com os seguintes métodos:
 - **insert**: Método para inserir novos elementos à lista.
 - **remove**: Método para remover o ultimo elemento da lista.
 - **print**: Método imprimir todos os elementos da lista.
+
+Exemplo:
+
+```javascript
+// Inicializando a Fila
+const lista = new ListaLigada();
+
+// Adicionando novos elementos
+lista.insert(2);
+lista.insert(1);
+lista.insert(5);
+
+// Removendo elementos
+lista.remove(2);
+lista.remove(5);
+
+// Imprimindo 
+lista.print(); // imprime: 1
+
+// Verificando se a fila está vázia
+lista.isEmpty(); // imprime: false
+```
 
 ### Challenge #3 - Árvore de pesquisa binária(BST - Binary Search Tree) 🧊
 
@@ -81,5 +147,25 @@ Implememente uma **BST** com os seguintes metodos:
 - **insert**: Método para adicionar novos elementos à árvore.
 - **find**: Método para pesquisar determinado valor na árvore.
 - **remove**: Método remover determinado valor da árvore.
+
+Exemplo:
+
+```javascript
+// Inicializando a Fila
+const bst = new BinarySearchTree();
+
+// Adicionando novos elementos
+bst.insert(2);
+bst.insert(1);
+bst.insert(5);
+
+// Removendo elementos
+bst.remove(2);
+// Imprimindo 
+bst.find(2); // imprime: true
+
+// Verificando se a fila está vázia
+bst.isEmpty(); // imprime: false
+```
 
 
