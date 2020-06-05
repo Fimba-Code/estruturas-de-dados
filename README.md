@@ -98,7 +98,7 @@ stack.isEmpty(); // imprime: false
 ### Challenge #3 - Lista Ligada(Linked-List) 🧊
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/23306911/83902866-7847f400-a75d-11ea-82fd-a54ad5e9be69.png" width="300"/>
+  <img src="https://user-images.githubusercontent.com/23306911/83902866-7847f400-a75d-11ea-82fd-a54ad5e9be69.png" width="400"/>
 </div>
 
 Lista Ligada é uma estrutura de dados linear e dinâmica. Ela é composta por células que apontam para o próximo elemento da lista. Para "ter" uma lista ligada/encadeada, basta guardar seu primeiro elemento, e seu último elemento aponta para uma célula nula. O esquema a seguir representa uma lista ligada/encadeada com 5 elementos. [Fonte: Wikipedia](https://pt.wikipedia.org/wiki/Lista_ligada)
@@ -134,7 +134,7 @@ lista.isEmpty(); // imprime: false
 ### Challenge #4 - Lista Ligada Circular 🧊 
 
 <div align="center">
-  <img src="https://media.discordapp.net/attachments/702982237452238918/718513912634671206/linked-list.png?width=1442&height=244" width="200"/>
+  <img src="https://media.discordapp.net/attachments/702982237452238918/718513912634671206/linked-list.png?width=1442&height=244" width="400"/>
 </div>
 
 Defina uma estrutura de dados utilizando o conceito de uma lista ligada circular, onde o último elemento nos leva sempre ao primeiro elemento, como no exemplo a seguir:
